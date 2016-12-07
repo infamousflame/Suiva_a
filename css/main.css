@@ -32,5 +32,16 @@ header p{
   padding: 0;
 }
 
+.product .row{
+  margin-top: 60px;
+}
 
+.product .col-md-6:last-of-type{
+  padding: 0 100px;
+}
 /*product end*/
+
+/*mission start*/
+
+
+/*mission end*/
