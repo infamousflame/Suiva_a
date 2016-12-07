@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <header>
+      <h1>H20 Flow</h1>
+      <p>The leading innovators in smart sprinkler technology.</p>
+    </header>
+    <section class="product">
+      <div class="container">
+        <h2>Our Product</h2>
+        <div class="col-md-6">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis eveniet dicta, deleniti perferendis dolores doloribus, in illo, id, tenetur animi iste vero. Optio ipsam, maxime ratione architecto delectus. In beatae fugiat quisquam reprehenderit dolor fuga necessitatibus tempora nam a odio laudantium nobis voluptas veritatis asperiores soluta, cupiditate deleniti, tenetur! Explicabo magnam nesciunt deleniti adipisci ducimus earum doloremque, doloribus, delectus dolorum dolore. Natus consectetur iste eos doloremque nihil cumque deleniti quos harum sed mollitia, laboriosam voluptatem aut repellat eius impedit tenetur sapiente consequuntur incidunt aliquid delectus amet. Fugiat veniam dolore nostrum eius temporibus beatae! Nisi ullam delectus, quia nihil blanditiis mollitia.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="" alt="">
+        </div>
+      </div>
+    </section>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if( $(this).attr("class")=="smooth-scroll") {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                            $('html,body').animate({
+                                    scrollTop: target.offset().top
+                            }, 1000);
+                            return false;
+                    }
+                }
+            }
+        });
+    });
+	</script>
+  </body>
+</html>

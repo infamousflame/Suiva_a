@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+/*header section start*/
+
+header{
+  background-image: url("../img/sprinklers.jpg");
+  background-size: cover;
+  height: 600px;
+}
+
+header h1{
+  text-align: center;
+  font-family: "Lobster", sans-serif;
+  padding-top: 200px;
+  margin: 0;
+  color: white;
+  font-size: 100px;
+}
+
+header p{
+  text-align: center;
+  color: white;
+}
+/*header section end*/
+
+/*product start*/
+
+.product h2{
+  font-size: 60px;
+}
+.product .col-md-6{
+  padding: 0;
+}
+
+
+/*product end*/
