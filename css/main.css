@@ -14,6 +14,19 @@ p{
   margin: 35px 0px 10px;
 }
 
+section{
+  padding: 100px 0;
+}
+
+
+
+.button{
+  border: 1px solid black;
+  border-radius: 5px;
+  color:black;
+  padding: 10px 8px;
+}
+
 /*header section start*/
 
 header{
@@ -76,6 +89,10 @@ footer{
   text-align: center;
 }
 
+footer ul{
+  padding: 0;
+}
+
 footer ul li{
   list-style: none;
   display: inline;
@@ -84,4 +101,7 @@ footer ul li i{
   font-size: 120px;
 }
 
+footer p{
+  margin: 0px;
+}
 /*footer end*/
