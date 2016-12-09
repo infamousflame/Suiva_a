@@ -96,6 +96,7 @@ footer ul{
 footer ul li{
   list-style: none;
   display: inline;
+  padding: 30px;
 }
 footer ul li i{
   font-size: 120px;
@@ -103,5 +104,13 @@ footer ul li i{
 
 footer p{
   margin: 0px;
+  font-size: 20px;
+  padding: 10px 0;
+}
+footer p:last-child{
+  font-size:14px;
+}
+.fa{
+  font-size: 20px;
 }
 /*footer end*/
