@@ -1,8 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Questrial');
 
 
 html, body{
   overflow-x: hidden;
+}
+
+h2{
+  font-size: 60px;
+  font-family: "Questrial", sans-serif;
+}
+
+p{
+  margin: 35px 0px 10px;
 }
 
 /*header section start*/
