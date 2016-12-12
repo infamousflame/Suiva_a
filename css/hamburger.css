@@ -25,7 +25,7 @@
 }
 .line-1.clicked{
   transition: all .5s;
-  transform: rotate(45deg) translate(22px, 21px);
+  transform: rotate(45deg) translate(10px, 10px);
 }
 .line-2.clicked{
   transition: all .3s;
@@ -34,5 +34,15 @@
 }
 .line-3.clicked{
   transition: all .5s;
-  transform: rotate(-45deg);
+  transform: rotate(-45deg)translate(11px, -10px);
+}
+.circle{
+  width: 85px;
+  height: 85px;
+  background-color: grey;
+  border-radius: 100px;
+  position: fixed;
+  left: 38px;
+  top: 15px;
+  z-index: -1;
 }
