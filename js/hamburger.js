@@ -18,10 +18,15 @@ $("#hamburger").on("click", animation);
 
 $(document).ready(function(){
     $(window).scroll(function(){
-        if ($(window).scrollTop() > 600){
+        if ($(window).scrollTop() > 550){
           $(".line").css("background-color", "black");
+          $("nav ul").css("color", "white");
+          $("nav ul").css("background-color", "rgba(0, 0, 0, .6)");
         }else{
+          $("nav ul").css("background-color", "rgba(255, 255, 255, .6)");
+          $("nav ul").css("color", "black");
           $(".line").css("background-color", "white");
+
         }
     });
 });
@@ -34,7 +39,7 @@ function toggleNav(){
     });
     setTimeout(function() {
       nav.css("display", "none");
-    }, 200);
+    }, 350);
     $("nav ul").css("position", "fixed");
     nav.removeClass("opened");
   }else{
